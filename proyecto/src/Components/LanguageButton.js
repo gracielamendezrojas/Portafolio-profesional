@@ -15,10 +15,10 @@ function LanguageButton() {
         id="states"
         className="text-lg lg:text-2xl font-mono cursor-pointer flex items-center justify-center rounded-full p-2 bg-violet-brand text-white hover:text-violet-brand hover:bg-white hover:font-extrabold hover:border-none"
       >
-        <option className="" selected value="EN">
+        <option label="English" className="" selected value="EN">
           English
         </option>
-        <option className="" value="ES">
+        <option label="Español" className="" value="ES">
           Español
         </option>
       </select>

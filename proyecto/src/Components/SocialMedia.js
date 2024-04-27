@@ -30,9 +30,9 @@ function Contact(){
     };
 
     return(
-        <div id="socialNetworks" className='p-10 max-w-screen-2xl ml-auto mr-auto'>
-            <h3 className='font-mono xl:text-5xl text-3xl text-center  font-black xl:font-normal cursor-default'>{labels[language].title}</h3>
-            <p className='font-mono  font-black	text-xl text-center pt-5 cursor-default'>{labels[language].description}</p>
+        <div id="socialNetworks" className='p-5 xl:p-10 max-w-screen-2xl ml-auto mr-auto'>
+            <h3 className='font-mono xl:text-5xl text-3xl text-center  py-5 xl:py-10 font-black xl:font-normal cursor-default'>{labels[language].title}</h3>
+            <p className='font-mono  font-black	text-xl text-center  cursor-default'>{labels[language].description}</p>
 
 
             <div className='flex flex-row justify-between sm:justify-evenly pt-10 gap-7'>

@@ -9,8 +9,8 @@ function ContactSection(){
                 <div className='xl:w-3/5 xl:flex hidden content-center '>
                     <img className='object-cover' src={graPhoto} alt="graPhoto"/>
                 </div>
-                <div className='xl:w-2/5 p-10'>
-                <ContactForm/>
+                <div className='xl:w-2/5 p-5 xl:p-10'>
+                    <ContactForm/>
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@ function WAIconComponent(){
     };
     return(
         <a href={labels[language].msg} target='_blank'>
-            <img src={WAlogo} alt="WhatsApp logo" className=" hover:animate-pulse w-14 lg:w-20 fixed left-100 right-6 lg:right-8 bottom-20 lg:bottom-8"/>
+            <img src={WAlogo} alt="WhatsApp logo" className=" hover:animate-pulse w-14 lg:w-20 fixed left-100 right-6 lg:right-8 bottom-8"/>
         </a>
     ); 
 }

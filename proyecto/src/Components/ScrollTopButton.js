@@ -25,7 +25,7 @@ function ScrollTopButton(){
     return(
         <div>
         {backToTopButton && (
-            <button onClick={scrollUp} className='hover:animate-pulse w-14 lg:w-20 fixed left-100 right-24 lg:right-32 bottom-20 lg:bottom-8'>
+            <button onClick={scrollUp} className='hover:animate-pulse w-14 lg:w-20 fixed left-100 right-24 lg:right-32 bottom-8'>
                 <img src={imageButton} alt="scroll up - arrow"/>
             </button>
         )}

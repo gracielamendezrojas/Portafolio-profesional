@@ -14,8 +14,8 @@ function ProjectsIntroduction(){
     };
     return(
       <div className="bg-light-blue-brand">
-        <div id="projects" className="text-center justify-center bg-light-blue-brand p-10 cursor-default max-w-screen-2xl ml-auto mr-auto">
-            <h2 className=' font-mono xl:text-5xl text-3xl text-center font-black xl:font-normal pb-10' >{labels[language].title}</h2>
+        <div id="projects" className="text-center justify-center bg-light-blue-brand p-5 cursor-default max-w-screen-2xl ml-auto mr-auto">
+            <h2 className=' font-mono xl:text-5xl text-3xl text-center font-black xl:font-normal  py-5 xl:py-10' >{labels[language].title}</h2>
             <p className='font-mono xl:text-2xl text-xl '>{labels[language].description}</p>
         </div>
       </div>
